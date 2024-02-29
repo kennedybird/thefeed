@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: lemonchiffon;
     font-family: Montserrat;
     letter-spacing: 1px;
       
@@ -12,22 +12,21 @@ p{
 
 h1{
 font-family: Montserrat;
-text-decoration: coral;
+text-decoration: lemonchiffon;
 text-decoration-line: underline;
 }
 
 h4{
-    text-decoration: coral;
+    text-decoration: lemonchiffon;
 }
 
 border-style{
-    color: brown;
+    color: lemonchiffon;
 }
 
 img{
     height: 35%;
     width: 35%;
-    border: 4px solid #00CC99;
 }
 #gif{
     width: 100%;
