@@ -1,13 +1,74 @@
-
 body {
-    background-image: url("backgroundbeach.png"),
-    background-color: #cccccc;
-  }
+  background: url("../img/websitebackground.png");
+  height: 30%;
+  width: 75%;
+  font-family: "Carrois Gothic SC", sans-serif; /* Apply the font family to the body */
+}
+
+/* Remove the incorrect selector .carrois-gothic sc-regular and place the styles directly under the body selector */
+body {
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right
+}
 
   img{
-    max-width: 50%;
-    max-height: 50%
+    max-width: 40%;
+    max-height: 40%
     }
 
+.center {
+      padding-top: 25px;
+      margin-right: -20%;
+      min-width: 40px;
+      text-align: center; 
+  }
 
-    
+.bringhercenter{
+  
+    margin-left: 500px;
+    margin-right: 150px;
+    max-width: 800px;
+}
+
+.myfriends {
+  display: flex;
+  flex-direction: column; /* Set the flex direction to column */
+  background-color: lemonchiffon;
+  border: 3.5px rgb(238, 239, 223) solid;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  top: 35%; /* Adjust the top position */
+  left: 7%;
+  width: 30%;
+  min-width: 270px;
+  max-width: 330px;
+  height: 470px; /* Adjust the height to accommodate both sections */
+}
+
+.littlesong {
+  background-color: lemonchiffon;
+  border: 3.5px rgb(238, 239, 223) solid;
+  position: relative; /* Set position to relative to allow stacking */
+  overflow: scroll;
+  width: 100%; /* Occupy full width of the container */
+  min-height: 200px; /* Adjust the minimum height */
+  max-height: 200px; /* Adjust the maximum height */
+}
+
+section{
+  background-color: beige;
+  padding-top: 50px;
+}
+
+
